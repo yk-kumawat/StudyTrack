@@ -121,7 +121,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    animation: slideFromLeft 1s ease forwards;
+    animation: slideFromLeft 1s ease forwards 0.2s;
     opacity: 0;
 }
 @keyframes slideFromLeft {
@@ -661,7 +661,7 @@ footer{
         width: 330px;
         font-size: 8px;
     }
-    .footerTop{
+    .footerTop a{
         height: 25px;
     }
     .footerFirst{
